@@ -1,0 +1,2 @@
+5daa8deb|Ingreso|70000.00|2026-11-06|Transporte|para el carro 
+2bb1214d|Gasto|1000000.00|2026-11-06|Entretenimiento|Juegos
