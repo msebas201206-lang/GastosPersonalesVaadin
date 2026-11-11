@@ -47,11 +47,11 @@ src/main/java/com/example/gastospersonales/
     ├── MovimientosView.java  # Vista de control de ingresos y gastos
     ├── PresupuestosView.java # Vista de control y tarjetas de presupuestos
     └── ReportesView.java     # Vista para reportes y estadísticas generales
-![Texto alternativo](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133134.png)
+![Apartado Movimientos](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133134.png)
 
-![Texto alternativo](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133117.png)
+![Apartado Presupuestos](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133117.png)
 
-![Texto alternativo](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133134.png)
+![Completo](https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133134.png)
 
 ![Texto alternativo](ruta/de/la/imagen.png)
 
