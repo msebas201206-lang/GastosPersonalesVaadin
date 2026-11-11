@@ -91,7 +91,7 @@ public class MovimientosView extends VerticalLayout {
             if (!modoEdicion) {
                 if (event.getValue() != null) {
                     grid.asSingleSelect().clear();
-                    Notification.show("⚠️ Presiona primero 'Seleccionar para Actualizar' si deseas editar un registro.", 3000, Notification.Position.MIDDLE);
+                    Notification.show(" Presiona primero 'Seleccionar para Actualizar' si deseas editar un registro.", 3000, Notification.Position.MIDDLE);
                 }
                 return;
             }
@@ -105,7 +105,7 @@ public class MovimientosView extends VerticalLayout {
                 categoriaCombo.setValue(movimientoSeleccionado.getCategoria());
                 descripcionField.setValue(movimientoSeleccionado.getDescripcion());
                 
-                Notification.show("📝 Registro cargado. Modifica los campos y presiona 'Guardar Cambios'.", 3000, Notification.Position.MIDDLE);
+                Notification.show(" Registro cargado. Modifica los campos y presiona 'Guardar Cambios'.", 3000, Notification.Position.MIDDLE);
             }
         });
     }
@@ -117,7 +117,7 @@ public class MovimientosView extends VerticalLayout {
         activarEdicionBtn.setVisible(false);
         guardarCambiosBtn.setVisible(true);
         cancelarBtn.setVisible(true);
-        Notification.show("🔍 Haz clic en el registro de la tabla que deseas modificar.", 4000, Notification.Position.MIDDLE);
+        Notification.show(" Haz clic en el registro de la tabla que deseas modificar.", 4000, Notification.Position.MIDDLE);
     }
 
     // Actualiza la tabla trayendo los datos del archivo de texto
@@ -143,7 +143,7 @@ public class MovimientosView extends VerticalLayout {
         movimientosList.add(nuevo);
         ArchivoService.guardarMovimientos(movimientosList);
 
-        Notification.show("✅ Movimiento guardado correctamente.");
+        Notification.show(" Movimiento guardado correctamente.");
         actualizarGrid();
         limpiarFormulario();
     }
@@ -163,7 +163,7 @@ public class MovimientosView extends VerticalLayout {
         movimientoSeleccionado.setDescripcion(descripcionField.getValue() != null ? descripcionField.getValue() : "");
 
         ArchivoService.guardarMovimientos(movimientosList);
-        Notification.show("✏️ Movimiento actualizado correctamente.");
+        Notification.show("Movimiento actualizado correctamente.");
         
         actualizarGrid();
         limpiarFormulario();
