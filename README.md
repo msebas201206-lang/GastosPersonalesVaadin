@@ -49,7 +49,7 @@ src/main/java/com/example/gastospersonales/
     └── ReportesView.java     # Vista para reportes y estadísticas generales
 
 
-    <img width="1906" height="836" alt="image" src="https://github.com/user-attachments/assets/7270fbc0-9746-4fc0-b16e-a56b7cde3cef" />
+    <https://github.com/msebas201206-lang/GastosPersonalesVaadin/blob/main/Captura%20de%20pantalla%202026-11-11%20133055.png/>
 
     <img width="1801" height="708" alt="image" src="https://github.com/user-attachments/assets/c9cf4398-597d-40f9-8797-247eefc93f2a" />
 
